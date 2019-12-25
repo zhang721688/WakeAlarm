@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zyascend.MyAlarm">
+    package="com.zxn.outalarm">
 
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
@@ -11,42 +11,43 @@
 
 
     <application
+        android:name=".OutAlarmApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AlarmTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.zxn.outalarm.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.AddAlarmActivity"
+            android:name="com.zxn.outalarm.activity.AddAlarmActivity"
             android:label="@string/title_activity_add_alarm">
         </activity>
         <activity
-            android:name=".activity.EditAlarmActivity"
+            android:name="com.zxn.outalarm.activity.EditAlarmActivity"
             android:label="@string/title_activity_edit_alarm">
         </activity>
         <activity
-            android:name=".activity.QuestionActivity"
+            android:name="com.zxn.outalarm.activity.QuestionActivity"
             android:label="设置问题">
         </activity>
 
-        <receiver android:name=".MyAlarmReceiver"/>
+        <receiver android:name="com.zxn.outalarm.MyAlarmReceiver"/>
 
-        <receiver android:name=".SnoozeReceiver"/>
+        <receiver android:name="com.zxn.outalarm.SnoozeReceiver"/>
 
-        <activity android:name=".activity.PlayAlarmActivity"
+        <activity android:name="com.zxn.outalarm.activity.PlayAlarmActivity"
             android:launchMode="singleTask"/>
 
-        <activity android:name=".activity.AboutActivity"/>
+        <activity android:name="com.zxn.outalarm.activity.AboutActivity"/>
 
-        <service android:name=".AlarmService"/>
+        <service android:name="com.zxn.outalarm.AlarmService"/>
 
-        <receiver android:name=".AlarmService$RebootReceiver">
+        <receiver android:name="com.zxn.outalarm.AlarmService$RebootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>

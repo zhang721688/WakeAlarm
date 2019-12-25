@@ -2,18 +2,7 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <devices>
-          <device id="Nexus 5" />
-          <device id="5.1in WVGA" />
-          <device id="5.4in FWVGA" />
-          <device id="Nexus 6P" />
-          <device id="Nexus 9" />
-          <device id="Nexus One" />
-          <device id="Nexus S" />
-          <device id="Nexus 4" />
-        </devices>
-      </config>
+      <config />
     </shared>
     <layouts>
       <layout url="file://$PROJECT_DIR$/.idea/misc.xml">
@@ -49,79 +38,102 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AddAlarmActivity.java" line="448" />
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/EditAlarmActivity.java" line="147" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AddAlarmActivity.java" line="442" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/EditAlarmActivity.java" line="147" />
     <bookmark url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_style.xml" line="4" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_question.xml" line="97" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed704a87-e686-47ad-a5c4-972529f0d840" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amulyakhare_com_amulyakhare_textdrawable_1_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getbase_floatingactionbutton_1_9_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appindexing_9_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_9_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_9_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_9_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_9_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_wdullaer_materialdatetimepicker_1_2_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ed704a87-e686-47ad-a5c4-972529f0d840" name="Default" comment="配置运行.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gyf_immersionbar_immersionbar_3_0_0_beta04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gyf_immersionbar_immersionbar_components_3_0_0_beta04_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zcommon_lib_zcommonutils_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zxn_iconitemview_iconitemview_1_0_9_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zxn_presenter_PresenterLib_1_3_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zxn_titleview_TitleView_1_0_7_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/OutAlarmApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/dialog/ClockNameEditDgFrag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/back_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_clock_name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_clock_repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_clock_ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_clock_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_clock_wake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_ring_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_ring_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_d_sp_rec_r2_c_00bb9c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_sp_oval_r10_stroke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_sp_rec_stroke_r5_c_bbbbbb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pre_auth_confirm_dg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAlarm2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WakeAlarm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/zyascend/MyAlarm/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/zxn/outalarm/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/AlarmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/AlarmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Model/AlarmModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/Model/AlarmModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Model/QuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/Model/QuestionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/MyAlarmReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/MyAlarmReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/SnoozeReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/SnoozeReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Utils/ActivityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/Utils/ActivityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Utils/DividerItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/Utils/DividerItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Utils/MyTimeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/Utils/MyTimeSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AddAlarmActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AddAlarmActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/EditAlarmActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/EditAlarmActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/PlayAlarmActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/PlayAlarmActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/QuestionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/QuestionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/data/MyAlarmDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/data/MyAlarmDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/data/MyAlarmOpenHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/data/MyAlarmOpenHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/fragment/NormalFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/fragment/NormalFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/fragment/QuestionFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/fragment/QuestionFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_alarm_off_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_alarm_off_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_alarm_on_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_alarm_on_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_delete_grey_600_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_alarm_off_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_alarm_off_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_alarm_on_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_alarm_on_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_delete_grey_600_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_alarm_off_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_alarm_off_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_alarm_on_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_alarm_on_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete_grey_600_36dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete_grey_600_36dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_off_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_off_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_on_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_on_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_delete_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_delete_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_delete_grey_600_36dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_delete_grey_600_36dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_alarm_off_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_alarm_off_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_alarm_on_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_alarm_on_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_delete_grey_600_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_delete_grey_600_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_delete_grey_600_36dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_delete_grey_600_36dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/zyascend/MyAlarm/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/zxn/outalarm/ExampleUnitTest.java" afterDir="false" />
     </list>
     <ignored path="MyAlarm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -146,8 +158,37 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
-          <tree_state />
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WakeAlarm" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WakeAlarm" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WakeAlarm" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WakeAlarm" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
         </projects_view>
       </state>
     </system>
@@ -157,20 +198,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="1027">
+              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+              <folding>
+                <element signature="e#180#195#0" expanded="true" />
+                <element signature="e#273#288#0" expanded="true" />
+                <element signature="e#682#696#0" expanded="true" />
+                <element signature="e#1192#1206#0" expanded="true" />
+                <element signature="e#2669#2683#0" expanded="true" />
+                <element signature="e#2714#2728#0" expanded="true" />
+                <element signature="e#2901#2915#0" expanded="true" />
+                <element signature="e#3112#3126#0" expanded="true" />
+                <element signature="e#3157#3171#0" expanded="true" />
+                <element signature="e#3252#3266#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AddAlarmActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret line="497" column="38" lean-forward="true" selection-start-line="497" selection-start-column="38" selection-end-line="497" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="384" column="26" selection-start-line="384" selection-start-column="16" selection-end-line="384" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#11325#12914#0" expanded="true" />
+                <element signature="e#12913#12914#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,9 +269,34 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>23.1.1</find>
+      <find>thumbnail_image</find>
+      <find>mThumbnailImage</find>
+      <find>Toolbar</find>
+      <find>add_reminder</find>
+      <find>mAddAlarmBtn</find>
+      <find>no_alarm_text</find>
+      <find>mNoAlarmTextView</find>
+      <find>et_money</find>
+      <find>etMoney</find>
+      <find>holdSleep</find>
+      <find>mRingText</find>
+      <find>holdSleep_text</find>
+      <find>selectRing</find>
+      <find>v</find>
+      <find>set_ring</find>
+      <find>mTimeText.setText</find>
+      <find>mRepeatText.setText</find>
+      <find>items_layout</find>
+      <find>active_image</find>
+      <find>mActiveImage</find>
+      <find>闹钟</find>
+      <find>re_tittle</find>
+      <find>mTitleText</find>
     </findStrings>
     <replaceStrings>
       <replace>28.0.0</replace>
+      <replace>iivClockTime.setRightText</replace>
+      <replace>iivClockRepeat.setRightText</replace>
     </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -207,13 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/PlayAlarmActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/EditAlarmActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/MyAlarmOpenHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Model/QuestionModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/MyAlarmDataBase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_play_alarm.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Model/AlarmModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/raw.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/data/MyAlarmOpenHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_reminder.xml" />
@@ -232,32 +328,39 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/licenses.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/popup_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_question.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/QuestionActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/data/MyAlarmDataBase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Utils/ActivityManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/PlayAlarmActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/AlarmService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AddAlarmActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_normal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/EditAlarmActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/fragment/NormalFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/fragment/QuestionFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_question.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/SnoozeReceiver.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/OutAlarmApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/dialog/PreAuthConfirmDgFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_pre_auth_confirm_dg.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/dialog/ClockNameEditDgFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/EditAlarmActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AddAlarmActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml" />
       </list>
     </option>
   </component>
@@ -280,10 +383,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,48 +399,98 @@
               <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="WakeAlarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeAlarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeAlarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeAlarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="outalarm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeAlarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeAlarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeAlarm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="9706c06" />
+    <property name="DEBUGGABLE_DEVICE" value="huawei-eml_al00-CLB7N19212003136" />
+    <property name="DEBUGGABLE_PROCESS" value="com.zyascend.MyAlarm" />
     <property name="ExportApk.ApkPath" value="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\build\outputs\apk" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.Flavors" value="" />
     <property name="FullScreen" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="153" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="extractMethod.generateAnnotations" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-hdpi" />
-      <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-xxxhdpi" />
-      <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-xxhdpi" />
-      <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-xhdpi" />
-      <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-mdpi" />
+      <recent name="D:\GitHub\repositories\WakeAlarm\app\src\main\res\drawable-xxhdpi" />
+      <recent name="D:\GitHub\repositories\WakeAlarm\app\src\main\res\drawable" />
+      <recent name="D:\GitHub\repositories\WakeAlarm\app\src\main\res\layout" />
+      <recent name="D:\GitHub\repositories\WakeAlarm\app\src\main\res\drawable-hdpi" />
+      <recent name="D:\GitHub\repositories\WakeAlarm\app\src\main\res\drawable-mdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zxn.outalarm.dialog" />
+      <recent name="com.zyascend.MyAlarm.Utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-xxxhdpi" />
       <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable" />
       <recent name="E:\Users\Administrator.WIN7U-20140224N\AndroidStudioProjects\MyAlarm2\app\src\main\res\drawable-xxhdpi" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zyascend.MyAlarm.Utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WakeAlarm:app [assembleRelease]">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -584,13 +737,21 @@
       <option name="presentableId" value="Default" />
       <updated>1457066566239</updated>
     </task>
+    <task id="LOCAL-00001" summary="配置运行.">
+      <created>1577171047032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577171047032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1135" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180258" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26180258" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
@@ -600,8 +761,8 @@
       <window_info id="Image Layers" order="7" />
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49695587" weight="0.84764993" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32873806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49695587" weight="0.61187696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,9 +783,9 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32952815" />
       <window_info anchor="right" id="Designer" order="4" />
       <window_info anchor="right" id="Android Model" order="5" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="6" weight="0.22983257" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.23980686" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.32952815" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.32939914" />
       <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
@@ -669,74 +830,11 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置运行." />
+    <option name="LAST_COMMIT_MESSAGE" value="配置运行." />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_error_outline_orange_800_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_notifications_paused_grey_600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_power_settings_new_grey_600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_repeat_grey_600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_snooze_white_36dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#246#276#0" expanded="true" />
-            <element signature="e#379#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_alarm_on_grey_600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_alarm_on_grey_600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_on_grey_600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_view_day_grey600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_sync_grey600_24dp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_app.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/divider_02.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="272" column="44" selection-start-line="272" selection-start-column="44" selection-end-line="272" selection-end-column="44" />
-          <folding>
-            <element signature="e#1263#1282#0" expanded="true" />
-            <element signature="e#2292#2309#0" expanded="true" />
-            <element signature="e#9862#9881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_question.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -756,42 +854,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_play_alarm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/data/MyAlarmOpenHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/data/MyAlarmOpenHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/data/MyAlarmDataBase.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/data/MyAlarmDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/QuestionActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/QuestionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="66" selection-start-line="66" selection-end-line="66" />
@@ -810,13 +896,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete_white_24dp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_alarm_on_grey_600_24dp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -830,14 +909,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/Utils/ActivityManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/Utils/ActivityManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/PlayAlarmActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/PlayAlarmActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="200" selection-start-line="200" selection-end-line="200" />
@@ -847,61 +926,14 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#2746#2769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/AddAlarmActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="279" column="33" selection-start-line="279" selection-start-column="33" selection-end-line="279" selection-end-column="33" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#15652#15653#0" />
-            <element signature="e#15700#15701#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/activity/EditAlarmActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="494" selection-start-line="494" selection-end-line="494" />
-          <folding>
-            <element signature="method#beforeTextChanged#0;class#3375:3838" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/MyAlarmReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/MyAlarmReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/AlarmService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/AlarmService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="79" selection-start-line="79" selection-end-line="79" />
@@ -912,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="27" column="39" selection-start-line="27" selection-end-line="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,26 +954,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/fragment/NormalFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/fragment/NormalFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="70" column="9" selection-start-line="60" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/fragment/QuestionFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/fragment/QuestionFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +975,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zyascend/MyAlarm/SnoozeReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/SnoozeReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
@@ -967,17 +989,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_alarm_on_grey_600_24dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_on_grey_600_24dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_alarm_off_grey_600_24dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captures/com.zyascend.MyAlarm_2019.12.24_15.25.li">
+      <provider selected="true" editor-type-id="capture-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/464f77c149aad9f5dbb3aaf846cd52d57b61df4b/com.amulyakhare.textdrawable-1.0.1-sources.jar!/com/amulyakhare/textdrawable/TextDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="240">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captures/com.zyascend.MyAlarm_2019.12.24_15.30.li">
+      <provider selected="true" editor-type-id="capture-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_sp_oval_r10_stroke.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/OutAlarmApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="303">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_power_settings_new_grey_600_24dp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_sp_rec_stroke_r5_c_bbbbbb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#262#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_d_sp_rec_r2_c_00bb9c.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pre_auth_confirm_dg.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/dialog/ClockNameEditDgFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="120" column="40" lean-forward="true" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+            <element signature="e#2929#2930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/EditAlarmActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="82" column="61" lean-forward="true" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zxn.titleview/TitleView/1.0.7/afa81ac0c678277d6b91c123c690009ff2a7c3f7/TitleView-1.0.7-sources.jar!/com/zxn/titleview/TitleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4380">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_alarm.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/AddAlarmActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="497" column="38" lean-forward="true" selection-start-line="497" selection-start-column="38" selection-end-line="497" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zxn/outalarm/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="384" column="26" selection-start-line="384" selection-start-column="16" selection-end-line="384" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11325#12914#0" expanded="true" />
+            <element signature="e#12913#12914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/items_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1027">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+          <folding>
+            <element signature="e#180#195#0" expanded="true" />
+            <element signature="e#273#288#0" expanded="true" />
+            <element signature="e#682#696#0" expanded="true" />
+            <element signature="e#1192#1206#0" expanded="true" />
+            <element signature="e#2669#2683#0" expanded="true" />
+            <element signature="e#2714#2728#0" expanded="true" />
+            <element signature="e#2901#2915#0" expanded="true" />
+            <element signature="e#3112#3126#0" expanded="true" />
+            <element signature="e#3157#3171#0" expanded="true" />
+            <element signature="e#3252#3266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

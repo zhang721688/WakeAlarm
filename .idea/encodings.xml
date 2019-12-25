@@ -15,13 +15,20 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_overflow.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ques_bac.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/arrow.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/back_white.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/cal_back.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/close.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_overflow.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_app.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ques_bac.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/right.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_d_sp_rec_r2_c_00bb9c.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_sp_rec_stroke_r5_c_bbbbbb.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/divider_02.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pre_auth_confirm_dg.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/raw/ring01.mp3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/raw/ring02.mp3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/raw/ring03.mp3" charset="UTF-8" />

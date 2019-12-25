@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zxn.iconitemview:iconitemview:1.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bcfc51a91d4e848a8327c629f859423e/iconitemview-1.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bcfc51a91d4e848a8327c629f859423e/iconitemview-1.0.9/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zxn.iconitemview/iconitemview/1.0.9/8cea440f57751937f073676508bd1bd19f578c51/iconitemview-1.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zxn.iconitemview/iconitemview/1.0.9/82d7696c285a22305d5157ee5751e4b1edba08bf/iconitemview-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

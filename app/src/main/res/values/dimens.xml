@@ -17,4 +17,7 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_top_bottom_height">60dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
 </resources>

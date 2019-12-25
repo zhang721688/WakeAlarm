@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zxn.titleview:TitleView:1.0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fd5449872186ba4d563c953eb7c3999/TitleView-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fd5449872186ba4d563c953eb7c3999/TitleView-1.0.7/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zxn.titleview/TitleView/1.0.7/9b861bd86248437c6158701d9139d8dd4373c930/TitleView-1.0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zxn.titleview/TitleView/1.0.7/afa81ac0c678277d6b91c123c690009ff2a7c3f7/TitleView-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

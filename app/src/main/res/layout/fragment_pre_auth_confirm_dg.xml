@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c_ffffff"
+    android:fitsSystemWindows="true">
+
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_20"
+        android:text="闹铃编辑"
+        android:textColor="@color/c_101010"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:gravity="center"
+        android:minHeight="@dimen/dp_80"
+        android:paddingTop="@dimen/dp_10"
+        android:text="闹铃名称编辑"
+        android:textColor="@color/c_00bb9c"
+        android:textSize="@dimen/sp_18" />
+
+    <ImageView
+        android:id="@+id/iv_dialog_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_dialog_title"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/dp_20"
+        android:scaleType="fitXY"
+        android:src="@drawable/close" />
+
+    <EditText
+        android:id="@+id/et_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:background="@drawable/bg_sp_rec_stroke_r5_c_bbbbbb"
+        android:hint="请输入闹铃名称"
+        android:inputType="text"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingRight="@dimen/dp_15"
+        android:paddingBottom="@dimen/dp_2"
+        android:textColor="@color/c_101010"
+        android:textColorHint="@color/c_bbbbbb"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/tv_dialog_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_money"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:minHeight="@dimen/dp_60"
+        android:paddingTop="@dimen/dp_10"
+        android:text="*输入可修改闹铃名称"
+        android:textSize="@dimen/sp_12" />
+
+    <TextView
+        android:id="@+id/tv_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dialog_notice"
+        android:background="@drawable/bg_d_sp_rec_r2_c_00bb9c"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:text="确定"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/sp_15"
+        android:textStyle="normal" />
+
+</RelativeLayout>
