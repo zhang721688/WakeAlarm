@@ -375,9 +375,9 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                /*int id = mRecyclerView.getChildAdapterPosition(v);
+                int id = mRecyclerView.getChildAdapterPosition(v);
                 int CheckedAlarmID = IDmap.get(id);
-                selectAlarm(CheckedAlarmID);*/
+                selectAlarm(CheckedAlarmID);
             }
 
 

@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,25 +25,31 @@ import android.widget.Toast;
 import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.wdullaer.materialdatetimepicker.time.RadialPickerLayout;
 import com.wdullaer.materialdatetimepicker.time.TimePickerDialog;
+import com.zcommon.lib.UIUtils;
+import com.zxn.iconitemview.IconItemView;
 import com.zxn.outalarm.AlarmService;
 import com.zxn.outalarm.Model.AlarmModel;
 import com.zxn.outalarm.data.MyAlarmDataBase;
 import com.zxn.outalarm.R;
+import com.zxn.outalarm.dialog.ClockNameEditDgFrag;
+import com.zxn.titleview.TitleView;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  *
  * Created by zyascend .
  */
 public class EditAlarmActivity extends AppCompatActivity implements
-        TimePickerDialog.OnTimeSetListener {
+        TimePickerDialog.OnTimeSetListener, ClockNameEditDgFrag.OnDialogClickListener {
 
-    private Toolbar mToolbar;
-    private EditText mTitleText;
-    private TextView mTimeText, mRepeatText,mWakeText,mRingText;
+//    private EditText mTitleText;
     private FloatingActionButton mFAB1;
     private FloatingActionButton mFAB2;
     private int  mHour, mMinute;
@@ -65,51 +72,59 @@ public class EditAlarmActivity extends AppCompatActivity implements
     private static final String KEY_ACTIVE = "active_key";
     public static final String ALARM_ID = "Alarm_ID";
 
-
+    @BindView(R.id.title_common)
+    TitleView titleCommon;
+    @BindView(R.id.iiv_clock_name)
+    IconItemView iivClockName;
+    @BindView(R.id.iiv_clock_ring)
+    IconItemView iivClockRing;
+    @BindView(R.id.iiv_clock_wake)
+    IconItemView iivClockWake;
+    @BindView(R.id.iiv_clock_repeat)
+    IconItemView iivClockRepeat;
+    @BindView(R.id.iiv_clock_time)
+    IconItemView iivClockTime;
 
     private String finalDefine;
     private MediaPlayer player;
+
+    private void onInitTitle() {
+        TextView view = new TextView(this);
+        view.setText("确定");
+        view.setTextColor(UIUtils.getColor(R.color.c_ffffff));
+        view.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onSaveAlarm();
+            }
+        });
+        titleCommon.setTitleText("闹钟编辑");
+        titleCommon.addRightView(view);
+    }
+
+    private void onSaveAlarm() {
+        if (iivClockName.getRightText().length() == 0) {
+            UIUtils.toast("闹钟名不能为空");
+        } else {
+            mTitle = iivClockName.getRightText();
+            updateAlarm();
+            finish();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_alarm);
-
-//        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-//        mTitleText = (EditText) findViewById(R.id.alarm_title);
-//        mTimeText = (TextView) findViewById(R.id.set_time);
-//        mRepeatText = (TextView) findViewById(R.id.set_repeat);
-//        mWakeText = (TextView) findViewById(R.id.set_wake);
-//        mRingText = (TextView) findViewById(R.id.set_ring);
-
-//        mFAB1 = (FloatingActionButton) findViewById(R.id.starred1);
-//        mFAB2 = (FloatingActionButton) findViewById(R.id.starred2);
-
-
-        //配置ToolBar
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle(R.string.title_activity_edit_alarm);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
-
-        mTitleText.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                mTitle = s.toString().trim();
-                mTitleText.setError(null);
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-            }
-        });
-
+        ButterKnife.bind(this);
         mAlarmID = Integer.parseInt(getIntent().getStringExtra(ALARM_ID));
+
+
+        onInitTitle();
+
+        mFAB1 = (FloatingActionButton) findViewById(R.id.starred1);
+        mFAB2 = (FloatingActionButton) findViewById(R.id.starred2);
 
         db = new MyAlarmDataBase(this);
         mCheckedAlarm = db.getAlarm(mAlarmID);
@@ -123,32 +138,34 @@ public class EditAlarmActivity extends AppCompatActivity implements
         mWake = mCheckedAlarm.getWakeType();
         mRing = mCheckedAlarm.getRing();
 
-        mTitleText.setText(mTitle);
-        mTimeText.setText(mTime);
-        mRepeatText.setText(mRepeatType);
-        mRingText.setText(mRing);
-        mWakeText.setText(mWake);
+        iivClockName.setRightText(mTitle);
+        
+        iivClockTime.setRightText((mTime));
+        iivClockTime.setRightText(mTime);
+        iivClockRepeat.setRightText(mRepeatType);
+        iivClockRing.setRightText(mRing);
+        iivClockWake.setRightText(mWake);
 
 
         // 得到上次设置状态
         if (savedInstanceState != null) {
             String savedTitle = savedInstanceState.getString(KEY_TITLE);
-            mTitleText.setText(savedTitle);
+            iivClockName.setRightText(savedTitle);
             mTitle = savedTitle;
 
             String savedTime = savedInstanceState.getString(KEY_TIME);
-            mTimeText.setText(savedTime);
+            iivClockTime.setRightText((savedTime));
             mTime = savedTime;
             String savedRepeat= savedInstanceState.getString(KEY_REPEAT);
-            mRepeatText.setText(savedRepeat);
+            iivClockRepeat.setRightText(savedRepeat);
             mRepeatType = savedRepeat;
 
             String savedRing = savedInstanceState.getString(KEY_RING);
-            mRingText.setText(savedRing);
+            iivClockRing.setRightText(savedRing);
             mRing = savedRing;
 
             String savedWake = savedInstanceState.getString(KEY_WAKE);
-            mWakeText.setText(savedWake);
+            iivClockWake.setRightText(savedWake);
             mWake = savedWake;
 
             mActive = savedInstanceState.getString(KEY_ACTIVE);
@@ -168,11 +185,11 @@ public class EditAlarmActivity extends AppCompatActivity implements
     protected void onSaveInstanceState (Bundle outState) {
         super.onSaveInstanceState(outState);
 
-        outState.putCharSequence(KEY_TITLE, mTitleText.getText());
-        outState.putCharSequence(KEY_TIME, mTimeText.getText());
-        outState.putCharSequence(KEY_REPEAT, mRepeatText.getText());
-        outState.putCharSequence(KEY_RING, mRingText.getText());
-        outState.putCharSequence(KEY_WAKE, mWakeText.getText());
+        outState.putCharSequence(KEY_TITLE, iivClockName.getRightText());
+        outState.putCharSequence(KEY_TIME, iivClockTime.getRightText());
+        outState.putCharSequence(KEY_REPEAT, iivClockRepeat.getRightText());
+        outState.putCharSequence(KEY_RING, iivClockRing.getRightText());
+        outState.putCharSequence(KEY_WAKE, iivClockWake.getRightText());
         outState.putCharSequence(KEY_ACTIVE, mActive);
 
     }
@@ -211,7 +228,7 @@ public class EditAlarmActivity extends AppCompatActivity implements
         } else {
             mTime = hourOfDay + ":" + minute;
         }
-        mTimeText.setText(mTime);
+        iivClockTime.setRightText((mTime));
     }
 
     public void selectRepeat(View v){
@@ -229,7 +246,7 @@ public class EditAlarmActivity extends AppCompatActivity implements
                     showDefineDialog(dialog);
                 } else {
                     mRepeatType = repeatType;
-                    mRepeatText.setText(mRepeatType);
+                    iivClockRepeat.setRightText(mRepeatType);
                 }
             }
         });
@@ -246,7 +263,7 @@ public class EditAlarmActivity extends AppCompatActivity implements
             public void onClick(DialogInterface dialog, int which) {
 
                 mWake = items[which];
-                mWakeText.setText( mWake);
+                iivClockWake.setRightText( mWake);
 
                 if (which == 1){
                     Intent i = new Intent(EditAlarmActivity.this, QuestionActivity.class);
@@ -304,10 +321,10 @@ public class EditAlarmActivity extends AppCompatActivity implements
                     finalDefine = finalDefine + " " + choosedDefine.get(i);
                     if (choosedDefine.size() == 7) {
                         mRepeatType = "每天";
-                        mRepeatText.setText(mRepeatType);
+                        iivClockRepeat.setRightText(mRepeatType);
                     } else {
                         mRepeatType = finalDefine;
-                        mRepeatText.setText(mRepeatType);
+                        iivClockRepeat.setRightText(mRepeatType);
                     }
                 }
                 dialog.dismiss();
@@ -376,7 +393,7 @@ public class EditAlarmActivity extends AppCompatActivity implements
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 mRing = options[which];
-                mRingText.setText(mRing);
+                iivClockRing.setRightText(mRing);
                 if (which == 1 || which == 2) {
                     showRingDialog(dialog);
                 }
@@ -470,15 +487,14 @@ public class EditAlarmActivity extends AppCompatActivity implements
                 onBackPressed();
                 return true;
 
-            case R.id.save_Alarm:
-                mTitleText.setText(mTitle);
-                if (mTitleText.getText().toString().length() == 0)
-                    mTitleText.setError("闹钟名不能为空");
-                else {
-                    updateAlarm();
-                }
-                return true;
-
+//            case R.id.save_Alarm:
+//                iivClockName.setRightText(mTitle);
+//                if (mTitleText.getText().toString().length() == 0)
+//                    mTitleText.setError("闹钟名不能为空");
+//                else {
+//                    updateAlarm();
+//                }
+//                return true;
             case R.id.discard_alarm:
                 Toast.makeText(getApplicationContext(), "取消编辑",
                         Toast.LENGTH_SHORT).show();
@@ -547,4 +563,31 @@ public class EditAlarmActivity extends AppCompatActivity implements
         }
         super.onDestroy();
     }
+
+    @OnClick({R.id.iiv_clock_name, R.id.iiv_clock_ring, R.id.iiv_clock_wake, R.id.iiv_clock_repeat, R.id.iiv_clock_time})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.iiv_clock_name:
+                ClockNameEditDgFrag.newInstance(this).show(getSupportFragmentManager());
+                break;
+            case R.id.iiv_clock_ring:
+                selectRing(view);
+                break;
+            case R.id.iiv_clock_time:
+                selectTime(view);
+                break;
+            case R.id.iiv_clock_repeat:
+                selectRepeat(view);
+                break;
+            case R.id.iiv_clock_wake:
+                selectWake(view);
+                break;
+        }
+    }
+
+    @Override
+    public void onConfirmClick(String num) {
+        iivClockName.setRightText(num);
+    }
+
 }

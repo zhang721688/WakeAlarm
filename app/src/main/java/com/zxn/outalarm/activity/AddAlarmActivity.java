@@ -445,7 +445,6 @@ public class AddAlarmActivity extends AppCompatActivity implements
 
     private void onSaveAlarm() {
         //iivClockName.setRightText(mTitle);
-
         if (iivClockName.getRightText().length() == 0) {
             UIUtils.toast("闹钟名不能为空");
         } else {
